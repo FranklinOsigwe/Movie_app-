@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;500;700&family=Mulish:wght@600&family=Roboto:wght@300;400;500;700;900&family=Work+Sans:wght@400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  height: 70px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+}
+
+.nav-bar h2 {
+  font-size: 40px;
+  color: white;
+}
+
+.nav-bag {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.nav-bag a {
+  text-decoration: none;
+  
+}
+.bag-quantity{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 25px;
+  width: 25px;
+  background-color: yellow;
+  color: black;
+  border-radius:50%;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 5px;
+}
